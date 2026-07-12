@@ -1,0 +1,43 @@
+body {
+    background-color: #8cb0aa;
+}
+
+h1 {
+    color: #2b3450;
+}
+
+h2 {
+    color: #2b3450;
+}
+
+#heading {
+    color: #2b3450;
+    font-size: 80px;
+}
+
+.normal_line {
+    background-color: #A97155;
+    border-style: none;
+    height: 2px;
+}
+
+.circle_line {
+    background-color: transparent;
+    border-color: #A97155;
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 30%;
+    margin-left: 0;
+}
+
+a:hover {
+    background-color: #BF9270;
+    font-size: 20px;
+}
+
+.introducao {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
