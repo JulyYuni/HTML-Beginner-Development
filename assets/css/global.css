@@ -237,6 +237,62 @@ nav a:hover{
 
 }
 
+/* ===================== PROJETOS ===================== */
+
+.card-projeto{
+
+    background:#f3faeb;
+
+    border-radius:15px;
+
+    padding:35px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.card-projeto:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card-projeto h3{
+
+    margin-bottom:15px;
+
+}
+
+.card-projeto p{
+
+    margin-bottom:25px;
+
+}
+
+.card-projeto a{
+
+    display:inline-block;
+
+    background:#4d78b8;
+
+    color:#eef4e7;
+
+    padding:12px 22px;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.card-projeto a:hover{
+
+    background:#355f9b;
+
+}
+
 /* ===================== GALERIA ===================== */
 
 .galeria{
