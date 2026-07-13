@@ -43,3 +43,52 @@ p{
 a{
     text-decoration:none;
 }
+
+/* ===================== HEADER ===================== */
+
+header{
+
+    position:sticky;
+    top:0;
+
+    background:#eef4e7;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 60px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    z-index:1000;
+
+}
+
+.logo h1{
+    font-size:28px;
+}
+
+nav ul{
+
+    display:flex;
+    gap:35px;
+
+    list-style:none;
+
+}
+
+nav a{
+
+    color:#20304d;
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#4d78b8;
+
+}
