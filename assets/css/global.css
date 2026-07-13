@@ -184,3 +184,83 @@ nav a:hover{
     font-size:18px;
 
 }
+
+/* ===================== FOOTER - REDES ===================== */
+
+footer{
+
+    background:#20304d;
+
+    padding:70px 40px 30px;
+
+    margin-top:80px;
+
+}
+
+footer h2{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+footer .redes{
+    display:flex;
+
+    justify-content:center;
+
+    gap:35px;
+
+    margin-top:35px;
+
+    margin-bottom:35px;
+
+}
+
+footer .redes .icones-redes-sociais{
+    width:50px;
+    height:50px;
+}
+
+
+footer .redes a{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    background:#f3faeb;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+
+    transition:.3s;
+
+}
+
+footer .redes a:hover{
+
+    transform:translateY(-6px);
+
+    background:white;
+
+}
+.copyright{
+
+    text-align:center;
+
+    color:#d7d7d7;
+
+    margin-top:30px;
+
+    font-size:14px;
+
+}
