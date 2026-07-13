@@ -185,6 +185,54 @@ nav a:hover{
 
 }
 
+/* ===================== EXPERIÊNCIA ===================== */
+
+.timeline_experiencia{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.card_experiencia{
+
+    background:#f3faeb;
+
+    padding:30px;
+
+    border-left:6px solid #4d78b8;
+
+    border-radius:12px;
+
+    box-shadow:20px 15px 15px rgba(0, 0, 0, 0.133);
+
+    transition:.3s;
+}
+
+.card_experiencia:hover{
+
+    background:#f3faeb;
+
+    padding:30px;
+
+    border-left:6px solid #4d78b8;
+
+    border-radius:12px;
+
+    transform:translateX(-8px);
+
+    
+}
+
+.card_experiencia h3{
+
+    margin-bottom:10px;
+
+}
+
 /* ===================== FOOTER - REDES ===================== */
 
 footer{
