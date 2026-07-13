@@ -142,3 +142,45 @@ nav a:hover{
     margin-bottom:20px;
 
 }
+
+/* ===================== CARDS ===================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.card_hobbies{
+
+    background:#f3faeb;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.card_hobbies:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card_hobbies h3{
+
+    margin:0;
+
+    font-size:18px;
+
+}
