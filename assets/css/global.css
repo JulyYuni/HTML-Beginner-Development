@@ -570,41 +570,71 @@ nav a:hover{
 
 /* ===================== GALERIA ===================== */
 
-.galeria{
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:40px;
-
-    flex-wrap:wrap;
+#galeria{
+    max-width: none;
 
     margin-top:50px;
 
 }
 
-.galeria .vertical-pictures{
+.carrossel-container {
 
+    position: relative;
+
+    width: 100%;
+
+    max-width: none;
+}
+
+.carrossel-container {
+
+    position: relative;
+
+    width: 100%;
+
+    margin: auto;
+}
+
+.carrossel-slide {
+    display: flex;
+
+    overflow-x: auto;
+
+    scroll-snap-type: x mandatory;
+
+    scroll-behavior: smooth;
+
+    padding:40px 30px;
+
+    overflow-y:hidden;
+
+    gap: 50px;
+}
+
+.carrossel-slide .vertical-pictures {
     width:380px;
 
     height:650px;
-
-    object-fit:cover;
 
     border-radius:50px;
 
     box-shadow:0 10px 25px rgba(0,0,0,.15);
 
+    position: relative;
+
+    scroll-snap-align:start;
+
+    object-fit:cover;
+
+    display:block;
+
     transition:.3s;
-
 }
 
-.galeria video:hover{
-
-    transform:scale(1.03);
-
+.carrossel-slide .vertical-pictures:hover {
+    transform:scale(1.1);
 }
+
 
 /* ===================== CONTATO ===================== */
 
@@ -687,7 +717,7 @@ nav a:hover{
 
 .contato-card:hover{
 
-    transform:translateY(-5px);
+    transform: scale(1.02);
 
     box-shadow:0 -10px 15px rgba(0,0,0,.12);
 
@@ -777,6 +807,9 @@ nav a:hover{
 
     transition:.3s;
 
+    font-family: "Courier New", monospace;
+
+
 }
 
 .formulario textarea{
@@ -798,6 +831,8 @@ nav a:hover{
     margin-bottom:25px;
 
     transition:.3s;
+
+    font-family: "Courier New", monospace;
 
 }
 
@@ -834,11 +869,15 @@ nav a:hover{
 
     transition:.3s;
 
+    font-family: "Courier New", monospace;
+
 }
 
 .formulario button:hover{
 
-    background:#4C7873;
+    background:#2b4e49;
+
+    transform: scale(1.02);
 
 }
 
@@ -910,7 +949,7 @@ footer .redes a{
 
 footer .redes a:hover{
 
-    transform:translateY(-6px);
+    transform: scale(1.1);
 
     background:white;
 
