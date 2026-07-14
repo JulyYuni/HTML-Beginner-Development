@@ -407,11 +407,11 @@ nav a:hover{
 
 .bloco-imagem-nome-projeto h3{
 
-    margin-top:40px;
+    margin-top:10px;
 
     color:#04132d;
 
-    font-size:28px;
+    font-size:50px;
 
 }
 
@@ -824,7 +824,7 @@ nav a:hover{
 
     border-radius:12px;
 
-    background:#8d8d8d;
+    background:#4C7873;
 
     color:white;
 
@@ -838,7 +838,7 @@ nav a:hover{
 
 .formulario button:hover{
 
-    background:#5d5d5d;
+    background:#4C7873;
 
 }
 
@@ -950,5 +950,380 @@ footer .redes a:hover{
 ::-webkit-scrollbar-track{
 
     background:#f3faeb;
+
+}
+
+/* ================================================= */
+/* RESPONSIVIDADE MOBILE (414px e 428px) */
+/* ================================================= */
+
+@media screen and (max-width: 428px){
+
+    /* ---------- GERAL ---------- */
+
+    section{
+        padding:50px 20px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    h2{
+        font-size:32px;
+        margin-bottom:30px;
+    }
+
+    h3{
+        font-size:22px;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+    /* ---------- HEADER ---------- */
+
+    header{
+
+        flex-direction:column;
+
+        gap:20px;
+
+        padding:20px;
+
+        position:relative;
+
+    }
+
+    .logo h1{
+
+        text-align:center;
+
+        font-size:28px;
+
+    }
+
+    nav{
+
+        width:100%;
+
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        gap:15px;
+
+        align-items:center;
+
+    }
+
+    /* ---------- SOBRE ---------- */
+
+    .sobre{
+
+        flex-direction:column;
+
+        padding:0 20px;
+
+        gap:35px;
+
+        text-align:center;
+
+    }
+
+    .foto img{
+
+        width:220px;
+
+        height:220px;
+
+    }
+
+    .texto h2{
+
+        text-align:center;
+
+        font-size:38px !important;
+
+    }
+
+    /* ---------- HOBBIES/HABILIDADES ---------- */
+
+    #hobbies-habilidades{
+
+        flex-direction:column;
+
+        padding:50px 20px;
+
+        gap:60px;
+
+    }
+
+    .hobbies-container{
+
+        padding-right:0;
+
+        border-right:none;
+
+        width:100%;
+
+    }
+
+    .habilidades-container{
+
+        width:100%;
+
+    }
+
+    .cards-hobbies,
+
+    .cards-habilidades{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .card-hobbies,
+
+    .card-habilidade{
+
+        height:180px;
+
+    }
+
+}
+
+/* ---------- PROJETOS ---------- */
+
+@media screen and (max-width:428px){
+
+    #secao-projetos{
+
+        margin-top:60px;
+
+    }
+
+    #secao-projetos>h2{
+
+        font-size:40px;
+
+    }
+
+    .projeto{
+
+        flex-direction:column;
+
+        padding:30px 20px;
+
+        gap:35px;
+
+    }
+
+    .bloco-imagem-nome-projeto{
+
+        width:100%;
+
+    }
+
+    .imagem-projeto{
+
+        width:100%;
+
+        height:220px;
+
+    }
+
+    .bloco-imagem-nome-projeto h3{
+
+        font-size:34px;
+
+        text-align:center;
+
+    }
+
+    .bloco-imagem-nome-projeto p{
+
+        text-align:center;
+
+    }
+
+    .texto-projeto{
+
+        width:100%;
+
+    }
+
+    #secao-projetos .texto-projeto h2{
+
+        text-align:center;
+
+        font-size:26px;
+
+    }
+
+    .texto-projeto p{
+
+        text-align:left;
+
+    }
+
+}
+
+/* ---------- CARDS DE PROJETOS ---------- */
+
+@media screen and (max-width:428px){
+
+    .cards-projetos{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .card-projeto{
+
+        padding:25px;
+
+    }
+
+    /* ---------- EXPERIÊNCIA ---------- */
+
+    .timeline_experiencia{
+
+        gap:20px;
+
+    }
+
+    .card_experiencia{
+
+        padding:20px;
+
+    }
+
+    /* ---------- GALERIA ---------- */
+
+    .galeria{
+
+        gap:20px;
+
+        margin-top:30px;
+
+    }
+
+    .galeria .vertical-pictures{
+
+        width:100%;
+
+        max-width:320px;
+
+        height:560px;
+
+        border-radius:30px;
+
+    }
+
+}
+
+/* ---------- CONTATO ---------- */
+
+@media screen and (max-width:428px){
+
+    #contato{
+
+        flex-direction:column;
+
+        gap:50px;
+
+        margin:40px auto;
+
+        padding:20px;
+
+    }
+
+    .texto-contato{
+
+        width:100%;
+
+    }
+
+    .texto-contato h2{
+
+        text-align:center;
+
+        font-size:38px;
+
+    }
+
+    .texto-contato p{
+
+        text-align:center;
+
+        font-size:18px;
+
+    }
+
+    .contato-cards-container{
+
+        flex-direction:column;
+
+    }
+
+    .contato-card{
+
+        width:100%;
+
+    }
+
+    .formulario{
+
+        width:100%;
+
+    }
+
+    .formulario button{
+
+        width:100%;
+
+        align-self:center;
+
+    }
+
+}
+
+/* ---------- FOOTER ---------- */
+
+@media screen and (max-width:428px){
+
+    footer{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+        text-align:center;
+
+        padding:30px 20px;
+
+    }
+
+    footer .redes{
+
+        justify-self:center;
+
+        margin:0;
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+    .copyright{
+
+        margin-top:0;
+
+    }
 
 }
