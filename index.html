@@ -325,20 +325,21 @@
 
     <!-- ===================== CONTATO ===================== -->
 
-    <section id="contato">
+    <section class="contato">
 
-        <h2>Entre em contato!</h2>
-        <div class="contato-grid">
-            <div class="contato-cards">
+        <div class="texto-contato">
 
-                <div class="contato-card">
+            <h2>Entre em contato!</h2>
 
-                    <h3>📱 Celular</h3>
+            <p>
+                Gostou do meu trabalho ou deseja conversar sobre algum projeto?
+                Preencha o formulário ao lado. Ficarei feliz em responder sua mensagem.
+            </p>
 
-                    <p>(21) 96940-3844</p>
-
-                </div>
-
+            <p>
+                Outros meios de contato:
+            </p>
+            <div class="contato-cards-container">
                 <div class="contato-card">
 
                     <h3>📧 E-mail</h3>
@@ -346,43 +347,53 @@
                     <p>juliacamilo_@hotmail.com</p>
 
                 </div>
-
                 <div class="contato-card">
 
                     <h3>🎓 Currículo Lattes</h3>
 
                     <a href="http://lattes.cnpq.br/5746117215982073"
-                      target="_blank">
+                        target="_blank">
                         Acessar currículo
                     </a>
-
                 </div>
-              </div>
-
-            <form action="https://formsubmit.co/juliacamilo_@hotmail.com" method="POST">
-
-                <input
-                    type="text"
-                    name="nome"
-                    placeholder="Seu nome"
-                    required>
-
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="Seu e-mail"
-                    required>
-
-                <textarea
-                    name="feedback"
-                    placeholder="Escreva seu feedback..."
-                    rows="7"
-                    required></textarea>
-
-                <button type="submit">Enviar</button>
-
-            </form>
             </div>
+        </div>
+
+        <form
+            class="formulario"
+            action="https://formsubmit.co/juliacamilo_@hotmail.com"
+            method="POST">
+
+            <input type="hidden" name="_captcha" value="false">
+
+            <label>Nome</label>
+
+            <input
+                type="text"
+                name="Nome"
+                placeholder="Seu nome completo"
+                required>
+
+            <label>Assunto</label>
+
+            <input
+                type="text"
+                name="Assunto"
+                placeholder="Assunto"
+                required>
+
+            <label>Descrição</label>
+
+            <textarea
+                name="Mensagem"
+                placeholder="Digite sua mensagem..."
+                required></textarea>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
 
     </section>
 
