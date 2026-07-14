@@ -7,9 +7,12 @@
 }
 
 body{
-    background:#8cb0aa;
+    background:#6d9a95;
+
     color:#2d2d2d;
+
     font-family:Arial, Helvetica, sans-serif;
+
     line-height:1.7;
 }
 
@@ -19,24 +22,31 @@ html{
 
 section{
     max-width:1200px;
+
     margin:auto;
+
     padding:90px 40px;
 }
 
 h1{
     font-size:42px;
+
     color:#20304d;
 }
 
 h2{
     font-size:34px;
+
     margin-bottom:45px;
+
     color:#20304d;
+
     text-align:center;
 }
 
 h3{
     color:#20304d;
+
     margin-bottom:15px;
 }
 
@@ -53,17 +63,20 @@ a{
 header{
 
     position:sticky;
+
     top:0;
 
-    background:#eef4e7;
+    background:#bddad6;
 
     display:flex;
+
     justify-content:space-between;
+
     align-items:center;
 
     padding:20px 60px;
 
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    box-shadow:0 20px 30px rgba(0,0,0,.08);
 
     z-index:1000;
 
@@ -76,6 +89,7 @@ header{
 nav ul{
 
     display:flex;
+
     gap:35px;
 
     list-style:none;
@@ -85,6 +99,7 @@ nav ul{
 nav a{
 
     color:#20304d;
+
     font-weight:bold;
 
     transition:.3s;
@@ -98,15 +113,31 @@ nav a:hover{
 }
 
 /* ===================== SOBRE ===================== */
+#sobre{
+    background:#49706c;
+    max-width:none;
+    box-shadow:0 20px 30px rgba(0,0,0,.08);
+
+}
 
 .sobre{
-
+    background:#49706c;
     display:flex;
+    padding-left: 250px;
+    padding-right: 250px;
     align-items:center;
     gap:70px;
 
 }
 
+#sobre .sobre p{
+    color:#c8d1e1;
+}
+
+#sobre .sobre h2{
+    font-size: 50px;
+    color:#121d30;
+}
 .foto{
 
     flex:1;
@@ -125,7 +156,7 @@ nav a:hover{
 
     border-radius:50%;
 
-    box-shadow:0 12px 35px rgba(0,0,0,.15);
+    box-shadow:10px 15px 8px rgba(0,0,0,.15);
 
 }
 
@@ -151,7 +182,9 @@ nav a:hover{
 
 #hobbies-habilidades{
 
-    max-width: 1800px;
+    box-shadow:0 -20px 30px rgba(0,0,0,.08);
+    
+    max-width: none;
 
     width: 100%;
     
@@ -201,7 +234,7 @@ nav a:hover{
 
     text-align: center;
 
-    background:#f3faeb;
+    background:#eef4e7;
 
     border-radius:15px;
 
@@ -249,7 +282,7 @@ nav a:hover{
 
 .card-habilidade{
 
-    background:#f3faeb;
+    background:#eef4e7;
 
     padding:20px 25px;
 
@@ -353,7 +386,7 @@ nav a:hover{
 
 .card-projeto{
 
-    background:#f3faeb;
+    background:#eef4e7;
 
     border-radius:15px;
 
