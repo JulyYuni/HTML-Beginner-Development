@@ -197,7 +197,8 @@ nav a:hover{
     justify-content:space-between;
 
     align-items:flex-start;
-
+    padding-left: 100px;
+    padding-right: 100px;
     gap:60px;
 
 }
@@ -240,11 +241,11 @@ nav a:hover{
 
     background:#eef4e7;
 
-    border-radius:15px;
+    border-radius:10px;
 
     padding:30px;
 
-    box-shadow:20px 15px 15px rgba(0,0,0,.13);
+    box-shadow:10px 10px 3px rgba(0, 0, 0, 0.181);
 
     transition:.4s;
 
@@ -254,7 +255,7 @@ nav a:hover{
 
     transform:translateY(-8px);
     
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    box-shadow:2px 10px 5px rgba(0,0,0,.08);
 
 }
 
@@ -306,7 +307,7 @@ nav a:hover{
 
     gap: 90px;
 
-    box-shadow:20px 15px 15px rgba(0,0,0,.13);
+    box-shadow:10px 10px 3px rgba(0, 0, 0, 0.181);
 
     transition:.4s;
 
@@ -316,7 +317,7 @@ nav a:hover{
 
     transform:translateY(-8px);
 
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    box-shadow:2px 10px 5px rgba(0,0,0,.08);
 
 }
 
@@ -328,57 +329,127 @@ nav a:hover{
 
 }
 
-/* ===================== EXPERIÊNCIA ===================== */
+/* ===================== DESCRIÇÃO DOS PROJETOS ===================== */
 
-.timeline_experiencia{
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:25px;
-
-}
-
-.card_experiencia{
-
-    background:#f3faeb;
-
-    padding:30px;
-
-    border-left:6px solid #4d78b8;
-
-    border-radius:12px;
-
-    box-shadow:20px 15px 15px rgba(0, 0, 0, 0.133);
-
-    transition:.4s;
-}
-
-.card_experiencia:hover{
-
-    background:#f3faeb;
-
-    padding:30px;
-
-    border-left:6px solid #4d78b8;
-
-    border-radius:12px;
-
-    transform:translateX(-8px);
-
-    box-shadow:-5px 15px 15px rgba(0,0,0,.08);
-
+#secao-projetos{
+    margin-top: 100px;
     
 }
 
-.card_experiencia h3{
+#secao-projetos h2{
 
-    margin-bottom:10px;
+    font-size: 70px;
+
+    color: #121d30;
+}
+
+.projetos{
+    
+    display:flex;
+
+    flex-direction: column;
+
+    gap:50px;
+
+    align-items:flex-start;
 
 }
 
-/* ===================== PROJETOS ===================== */
+.projeto-background{
+
+    background-color:#3B5154;
+
+    box-shadow:0 20px 30px rgba(0,0,0,.08);
+    box-shadow:0 -20px 30px rgba(0,0,0,.08);
+    transition:.4s;
+    border-radius:18px;
+}
+
+.projeto-background:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+.projeto{
+    
+    padding: 50px 200px 40px 200px;
+    
+    max-width:none;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 150px;
+}
+
+.imagem-projeto{
+
+    width:480px;
+
+}
+
+.imagem-projeto {
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+
+}
+
+.bloco-imagem-nome-projeto h3{
+
+    margin-top:40px;
+
+    color:#04132d;
+
+    font-size:28px;
+
+}
+
+.bloco-imagem-nome-projeto p{
+
+    color:#c8d1e1;
+
+}
+
+.texto-projeto{
+
+    flex:1;
+
+}
+
+#secao-projetos .texto-projeto h2{
+
+    font-size: 30px;
+
+    text-align:left;
+
+    margin-bottom:18px;
+
+    color:#04132d;
+
+}
+
+.texto-projeto p{
+
+    color:#c8d1e1;
+
+    text-align:justify;
+
+    line-height:1.8;
+
+}
+
+/* ===================== ACESSO AOS PROJETOS ===================== */
 
 .cards-projetos{
 
@@ -446,6 +517,57 @@ nav a:hover{
 
 }
 
+
+/* ===================== EXPERIÊNCIA ===================== */
+
+.timeline_experiencia{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.card_experiencia{
+
+    background:#f3faeb;
+
+    padding:30px;
+
+    border-left:6px solid #4d78b8;
+
+    border-radius:12px;
+
+    box-shadow:20px 15px 15px rgba(0, 0, 0, 0.133);
+
+    transition:.4s;
+}
+
+.card_experiencia:hover{
+
+    background:#f3faeb;
+
+    padding:30px;
+
+    border-left:6px solid #4d78b8;
+
+    border-radius:12px;
+
+    transform:translateX(-8px);
+
+    box-shadow:-5px 15px 15px rgba(0,0,0,.08);
+
+    
+}
+
+.card_experiencia h3{
+
+    margin-bottom:10px;
+
+}
+
 /* ===================== GALERIA ===================== */
 
 .galeria{
@@ -486,7 +608,7 @@ nav a:hover{
 
 /* ===================== CONTATO ===================== */
 
-.contato{
+#contato{
 
     max-width:1400px;
 
