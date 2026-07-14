@@ -147,19 +147,59 @@ nav a:hover{
 
 }
 
-/* ===================== CARDS ===================== */
+/* ===================== HOBBIES & HABILIDADES ===================== */
 
-.cards{
+#hobbies-habilidades{
 
-    display:grid;
+    max-width: 1800px;
 
-    grid-template-columns:repeat(4,1fr);
+    width: 100%;
+    
+    display:flex;
 
-    gap:25px;
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    gap:60px;
 
 }
 
-.card_hobbies{
+/* ===================== HOBBIES ===================== */
+
+.hobbies-container{
+
+    gap: 60px;
+
+    flex:1;
+
+    padding-right:62px;
+
+    border-right:2px solid #445b85;
+
+}
+
+.cards-hobbies{
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+
+    gap: 20px;
+
+}
+
+.card-hobbies{
+
+    display: flex;
+
+    justify-content: center;
+
+    height: 250px;
+
+    align-items: center;
+
+    text-align: center;
 
     background:#f3faeb;
 
@@ -167,23 +207,85 @@ nav a:hover{
 
     padding:30px;
 
-    text-align:center;
+    box-shadow:20px 15px 15px rgba(0,0,0,.13);
 
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
-
-    transition:.3s;
+    transition:.4s;
 
 }
 
-.card_hobbies:hover{
+.card-hobbies:hover{
+
+    transform:translateY(-8px);
+    
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.card-hobbies h3{
+
+    margin:0;
+
+    font-size:18px;
+
+}
+
+/* ===================== HABILIDADES ===================== */
+
+.habilidades-container{
+
+    flex: 1;
+
+}
+
+.cards-habilidades{
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+
+    gap: 20px;
+
+}
+
+.card-habilidade{
+
+    background:#f3faeb;
+
+    padding:20px 25px;
+
+    height: 250px;
+
+    border-radius:12px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    gap: 90px;
+
+    box-shadow:20px 15px 15px rgba(0,0,0,.13);
+
+    transition:.4s;
+
+}
+
+.card-habilidade:hover{
 
     transform:translateY(-8px);
 
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
 }
 
-.card_hobbies h3{
+.card-habilidade span:first-child{
 
-    margin:0;
+    font-weight:bold;
 
     font-size:18px;
 
@@ -213,7 +315,7 @@ nav a:hover{
 
     box-shadow:20px 15px 15px rgba(0, 0, 0, 0.133);
 
-    transition:.3s;
+    transition:.4s;
 }
 
 .card_experiencia:hover{
@@ -238,6 +340,16 @@ nav a:hover{
 }
 
 /* ===================== PROJETOS ===================== */
+
+.cards-projetos{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
 
 .card-projeto{
 
